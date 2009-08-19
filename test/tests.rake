@@ -1,6 +1,6 @@
 require 'pathname'
 
-task(:test) do
+task(:test_all) do
   test_root = Pathname(__FILE__).dirname
 
   files = %w(
