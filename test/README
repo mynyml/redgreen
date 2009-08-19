@@ -1,0 +1,11 @@
+To run the full test suite, call <tt>rake</tt>.
+
+The results are non-intuitive, but simple; for each adapter there is a passing
+test and a failing test - each passing test should have a green bar at the end,
+and each failing test a red one. This is not ideal, but it's a small test suite
+and it keeps things simple.
+
+To run a test suite individually, use
+
+  ruby -rubygems test/minitest/test_success.rb
+

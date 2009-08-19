@@ -31,10 +31,6 @@ Place it in your test file (or test_helper.rb), and run your suite.
     * shoula
     * probably all others
   * minitest/unit
+  * expectations
 
-
-==== TODO
-
-  * Add test framework adapters
-    * expectations
-    * ...
+Patches or requests for other framework adapters are very welcome
