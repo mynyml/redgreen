@@ -34,6 +34,8 @@ spec = Gem::Specification.new do |s|
   s.has_rdoc        = true
   s.require_path    = "lib"
   s.files           = all_except([/doc/, /pkg/])
+  s.add_dependency 'mynyml-override', '>= 0.5'
+  s.add_dependency 'term-ansicolor',  '>= 1.0.4'
 end
 
 desc "Generate rdoc documentation."
