@@ -24,15 +24,17 @@ Place it in your test file (or test_helper.rb), and run your suite.
 
 ==== Testing Framework Compatibility
 
-  * test/unit
+  * test/unit based frameworks:
+    * test/unit
+    * contest
+    * context
+    * shoula
+    * probably all others
   * minitest/unit
 
 
 ==== TODO
 
   * Add test framework adapters
-    * contest       # propably already works; need testing
-    * context       # propably already works; need testing
-    * shoulda       # propably already works; need testing
     * expectations
     * ...

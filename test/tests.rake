@@ -8,6 +8,12 @@ task(:test_all) do
     testunit/test_failure.rb
     minitest/test_success.rb
     minitest/test_failure.rb
+     contest/test_success.rb
+     contest/test_failure.rb
+     context/test_success.rb
+     context/test_failure.rb
+     shoulda/test_success.rb
+     shoulda/test_failure.rb
   )
   files.map! {|file| Pathname(file).expand_path(test_root) }
   files.each {|file| system("ruby -rubygems #{file}") }
