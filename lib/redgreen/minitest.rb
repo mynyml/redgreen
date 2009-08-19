@@ -1,15 +1,5 @@
 require 'minitest/unit'
 require 'override'
-require 'term/ansicolor'
-
-module RedGreen
-  extend self
-  attr_accessor :colour
-
-  def visual
-    Term::ANSIColor.send(self.colour || :green) { "="*78 }
-  end
-end
 
 class MiniTest::Unit::TestCase
   override :run
