@@ -7,7 +7,7 @@ require 'pathname'
 require 'yaml'
 
 load 'test/tests.rake'
-task :default => :test_all
+task :default => 'test:all'
 
 RUBY_1_9  = RUBY_VERSION =~ /^1\.9/
 WIN       = (RUBY_PLATFORM =~ /mswin|cygwin/)
