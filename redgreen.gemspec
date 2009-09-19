@@ -1,7 +1,7 @@
 --- !ruby/object:Gem::Specification 
 name: redgreen
 version: !ruby/object:Gem::Version 
-  version: "0.5"
+  version: 0.5.1
 platform: ruby
 authors: 
 - Martin Aumont
@@ -121,7 +121,6 @@ files:
 - lib/redgreen.rb
 - redgreen.gemspec
 - LICENSE
-- redgreen-0.5.gem
 - specs.watchr
 - README
 has_rdoc: true

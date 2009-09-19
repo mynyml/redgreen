@@ -25,7 +25,7 @@ end
 
 spec = Gem::Specification.new do |s|
   s.name            = 'redgreen'
-  s.version         = '0.5'
+  s.version         = '0.5.1'
   s.summary         = "Standalone redgreen eye candy for test results, ala autotest"
   s.description     = "Standalone redgreen eye candy for test results, ala autotest."
   s.author          = "Martin Aumont"
