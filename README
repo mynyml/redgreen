@@ -7,20 +7,16 @@ passed or failed.
 
 Red if a test failed, Green if all tests passed. Simple.
 
+=== Install
+
+  gem install mynyml-redgreen --source http://gemcutter.org
 
 ==== Usage
 
   require 'redgreen'
 
-Is all you need!
-
-Place it in your test file (or test_helper.rb), and run your suite.
-
-
-==== Install
-
-  gem install mynyml-redgreen --source http://gems.github.com/
-
+That's all you need. Place this require in your test file (or test_helper.rb),
+and run your suite.
 
 ==== Testing Framework Compatibility
 
