@@ -20,7 +20,7 @@ namespace(:test) do
       expectations/test_failure.rb
     )
     files.map! {|file| Pathname(file).expand_path(test_root) }
-    files.each {|file| system("ruby -rubygems #{file}") }
+    files.each {|file| system("ruby -rubygems -I.:lib #{file}") }
   end
 
   task(:by_fw) do
@@ -29,7 +29,7 @@ namespace(:test) do
 
     frameworks.each do |framework|
       files = Dir[test_root + framework.strip + '*']
-      files.each {|file| system("ruby -rubygems #{file}") }
+      files.each {|file| system("ruby -rubygems -I.:lib #{file}") }
     end
   end
 end
