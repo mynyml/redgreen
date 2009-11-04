@@ -11,13 +11,12 @@ Gem::Specification.new do |s|
   s.require_path        = "lib"
   s.files               =  File.read("Manifest").strip.split("\n")
 
-  s.add_dependency 'mynyml-override', '>= 0.5.2' #gemcutter
   s.add_dependency 'term-ansicolor',  '>= 1.0.4'
 
   s.add_development_dependency 'minitest',                '>= 1.3.1'
   s.add_development_dependency 'expectations',            '>= 1.2.1'
-  s.add_development_dependency 'thoughtbot-shoulda',      '>= 2.10.1'
-  s.add_development_dependency 'citrusbyte-contest',      '>= 0.1.1'
+  s.add_development_dependency 'shoulda',                 '>= 2.10.1'
+  s.add_development_dependency 'contest',                 '>= 0.1.1'
   s.add_development_dependency 'jeremymcanally-context',  '>= 0.5.5'
 end
 

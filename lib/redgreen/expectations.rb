@@ -1,19 +1,20 @@
 require 'expectations/suite_results'
-require 'override'
 
 class Expectations::SuiteResults
-  override :print_success
-  def print_success
-    super
+  def new_print_success
+    old_print_success
     out.puts RedGreen.visual
     out.puts
   end
+  alias :old_print_success :print_success
+  alias :print_success :new_print_success
 
-  override :print_fail
-  def print_fail
-    super
+  def new_print_fail
+    old_print_fail
     RedGreen.colour = :red
     out.puts RedGreen.visual
     out.puts
   end
+  alias :old_print_fail :print_fail
+  alias :print_fail :new_print_fail
 end
