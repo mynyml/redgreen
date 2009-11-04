@@ -8,7 +8,7 @@ lib/redgreen/expectations.rb
 lib/redgreen/minitest.rb
 lib/redgreen/nanotest.rb
 lib/redgreen/testunit.rb
-redgreen.gemspec
+mynyml-redgreen.gemspec
 specs.watchr
 test/README
 test/contest/test_failure.rb
