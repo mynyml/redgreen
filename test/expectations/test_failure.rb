@@ -1,7 +1,5 @@
-require 'pathname'
 require 'expectations'
-root  =  Pathname(__FILE__).dirname.parent.parent
-require  root + 'lib/redgreen'
+require 'lib/redgreen'
 
 Expectations do
   expect "THIS TEST SHOULD FAIL" do
