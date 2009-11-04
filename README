@@ -27,6 +27,7 @@ and run your suite.
     * shoula
     * probably all others
   * minitest/unit
+  * nanotest
   * expectations
 
 Patches or requests for other framework adapters are very welcome
