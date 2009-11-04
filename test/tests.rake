@@ -6,6 +6,8 @@ namespace(:test) do
     test_root = Pathname(__FILE__).dirname
 
     files = %w(
+          nanotest/test_failure.rb
+          nanotest/test_success.rb
           testunit/test_failure.rb
           testunit/test_success.rb
           minitest/test_failure.rb

@@ -6,6 +6,7 @@ Rakefile
 lib/redgreen.rb
 lib/redgreen/expectations.rb
 lib/redgreen/minitest.rb
+lib/redgreen/nanotest.rb
 lib/redgreen/testunit.rb
 redgreen.gemspec
 specs.watchr
@@ -18,6 +19,8 @@ test/expectations/test_failure.rb
 test/expectations/test_success.rb
 test/minitest/test_failure.rb
 test/minitest/test_success.rb
+test/nanotest/test_failure.rb
+test/nanotest/test_success.rb
 test/shoulda/test_failure.rb
 test/shoulda/test_success.rb
 test/tests.rake
