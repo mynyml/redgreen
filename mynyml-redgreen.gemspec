@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name                = 'mynyml-redgreen'
-  s.version             = '0.6.2'
+  s.version             = '0.6.2.1'
   s.summary             = "Standalone redgreen eye candy for test results, ala autotest"
   s.description         = "Standalone redgreen eye candy for test results, ala autotest."
   s.author              = "Martin Aumont"
