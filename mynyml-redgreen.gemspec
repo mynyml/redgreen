@@ -15,7 +15,6 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'nanotest',                '>= 0.9.2'
   s.add_development_dependency 'minitest',                '>= 1.3.1'
-  s.add_development_dependency 'expectations',            '>= 1.2.1'
   s.add_development_dependency 'shoulda',                 '>= 2.10.1'
   s.add_development_dependency 'contest',                 '>= 0.1.1'
   s.add_development_dependency 'jeremymcanally-context',  '>= 0.5.5'

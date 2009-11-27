@@ -2,7 +2,7 @@
 
 Standalone redgreen eye candy for test results, ala autotest
 
-Adds a visual cue at the end of a test run to better visualize whether test(s)
+Adds a visual cue at the end of a test run to better visualize whether tests
 passed or failed.
 
 Red if a test failed, Green if all tests passed. Simple.
@@ -28,6 +28,5 @@ and run your suite.
     * probably all others
   * minitest/unit
   * nanotest
-  * expectations
 
 Patches or requests for other framework adapters are very welcome

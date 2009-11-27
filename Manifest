@@ -4,7 +4,6 @@ Manifest
 README
 Rakefile
 lib/redgreen.rb
-lib/redgreen/expectations.rb
 lib/redgreen/minitest.rb
 lib/redgreen/nanotest.rb
 lib/redgreen/testunit.rb
@@ -15,8 +14,6 @@ test/contest/test_failure.rb
 test/contest/test_success.rb
 test/context/test_failure.rb
 test/context/test_success.rb
-test/expectations/test_failure.rb
-test/expectations/test_success.rb
 test/minitest/test_failure.rb
 test/minitest/test_success.rb
 test/nanotest/test_failure.rb

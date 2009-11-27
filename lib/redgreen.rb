@@ -14,8 +14,7 @@ end
 
 dir =  Pathname(__FILE__).dirname.parent.join('lib/redgreen')
 
-if    defined?(Expectations::SuiteRunner) then require dir.join('expectations')
-elsif defined?(MiniTest::Unit::TestCase)  then require dir.join('minitest')
+if    defined?(MiniTest::Unit::TestCase)  then require dir.join('minitest')
 elsif defined?(Test::Unit::TestCase)      then require dir.join('testunit')
 elsif defined?(NanoTest)                  then require dir.join('nanotest')
 end

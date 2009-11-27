@@ -18,8 +18,6 @@ namespace(:test) do
            context/test_success.rb
            shoulda/test_failure.rb
            shoulda/test_success.rb
-      expectations/test_failure.rb
-      expectations/test_success.rb
     )
     files.map! {|file| Pathname(file).expand_path(test_root) }
     files.each {|file| system("ruby -rubygems -I.:lib #{file}") }
