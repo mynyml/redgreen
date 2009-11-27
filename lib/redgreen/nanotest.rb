@@ -1,5 +1,3 @@
-require 'nanotest'
-
 at_exit do
   if NanoTest::FAILURES.empty?
     NanoTest::FAILURES << RedGreen.visual + "\n\n"

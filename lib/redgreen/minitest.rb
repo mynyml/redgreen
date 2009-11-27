@@ -1,5 +1,3 @@
-require 'minitest/unit'
-
 class MiniTest::Unit::TestCase
   def new_run(runner)
     result = old_run(runner)
