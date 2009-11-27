@@ -1,8 +1,9 @@
-at_exit do
-  if NanoTest::FAILURES.empty?
-    NanoTest::FAILURES << RedGreen.visual + "\n\n"
-  else
-    RedGreen.colour = :red 
-    NanoTest::FAILURES << RedGreen.visual + "\n\n"
+module Nanotest
+  class << self
+    alias :redgreen__orig_results :results
+    def results
+      RedGreen.colour = :red unless @@failures.empty?
+      redgreen__orig_results.strip + "\n" + RedGreen.visual + "\n\n"
+    end
   end
 end

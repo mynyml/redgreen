@@ -1,5 +1,5 @@
 require 'nanotest'
 require 'lib/redgreen'
 
-include  NanoTest
+include  Nanotest
 assert { true }
